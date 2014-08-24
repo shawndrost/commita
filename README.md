@@ -16,3 +16,6 @@ then paste this:
 node ~/code/hackreactor/commit-announcer/app.js
 ```
 
+then do this:
+
+`git commita -m "meta, using commita to test commita"`
