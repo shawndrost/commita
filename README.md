@@ -13,7 +13,8 @@ then paste this:
 
 ```
 #!/bin/bash
-node ~/code/hackreactor/commit-announcer/app.js
+node ~/code/hackreactor/commit-announcer/app.js "$*"
+git commit "$*"
 ```
 
 then do this:
